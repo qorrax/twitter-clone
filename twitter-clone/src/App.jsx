@@ -4,7 +4,7 @@ import Trending from './Components/Trending/Trending'
 import TweetList from './Components/Tweets/TweetList'
 import TweetCard from './Components/Tweets/TweetCard'
 
-import { Container, Row, Col } from 'react-bootstrap'
+// import { Container, Row, Col } from 'react-bootstrap'
 
 
 import './App.css'
@@ -81,12 +81,12 @@ function App() {
 
   return (
     
-      <Container className='container' display="flex">
+      <div className='app-container'>
         
         <Navvigation />
         <TweetList  tweets={tweets} />
         <Trending />
-      </Container>
+      </div>
       
   
   )
