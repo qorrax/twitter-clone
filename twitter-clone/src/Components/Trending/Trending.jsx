@@ -26,7 +26,7 @@ function Trending() {
 
 
 
-    <card>
+    <Card>
         <Card.Body>
             <Card.Title> what's Trending</Card.Title>
             <ListGroup style={{border:"none", fontWeight: "bold"}}>
@@ -44,7 +44,7 @@ function Trending() {
         </Card.Body>
 
 
-    </card>
+    </Card>
 
     </div>
   )
